@@ -25,7 +25,7 @@ var Youtube = {
 };
 
 var youtube_info = {
-    getvideodetails: function () {
+    getvideodetails: function (vid) {
         var dfd = jQuery.Deferred();
         $.ajax({
             url: "https://www.googleapis.com/youtube/v3/videos",
